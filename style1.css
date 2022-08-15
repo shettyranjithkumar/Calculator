@@ -23,6 +23,8 @@ body{
     align-items: center;
     border: none;
     border-radius: 5px;
+    font-size: 25px;
+    text-align: right;
 }
 
 .row{
