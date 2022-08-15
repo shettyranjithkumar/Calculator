@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style1.css">
+    <title>calculator</title>
+</head>
+<body>
+    
+    
+           <h1>Calculator</h1>
+           <table>
+            <tr>
+                <td colspan="8">
+                    <div><input id="main" type="text" name="value" > </div></td>
+            </tr>
+            <tr>
+            <td><button onclick="display('*')">*</button></td>
+            <td><button onclick="percentage()">%</button></td>
+            <td><button onclick="display('/')">/</button></td>
+            <td><button  onclick="clr()"><i class="fa-solid fa-delete-left"></i></button></td>
+            </tr>
+            
+           <tr>
+           
+            <td><button onclick="display(7)">7</button></td>
+            <td><button onclick="display(8)">8</button></td>
+            <td><button onclick="display(9)">9</button></td>
+            <td><button onclick="display('-')">-</button></td>
+           </tr>
+            
+            <tr>
+            <td><button onclick="display(4)">4</button></td>
+            <td><button onclick="display(5)">5</button></td>
+            <td><button onclick="display(6)">6</button></td>
+            <td><button onclick="display('+')">+</button></td>
+            </tr>
+           
+            
+            <tr>
+            <td><button onclick="display(1)">1</button></td>
+            <td><button onclick="display(2)">2</button> </td>
+            <td><button onclick="display(3)">3</button></td> 
+           <td> <button onclick="display('.')">.</button></td>
+            </tr>
+            
+            <tr>
+            <td><button onclick="display('(')">(</button></td> 
+            <td><button onclick="display(0)">0</button> </td> 
+           <td><button onclick="display(')')">)</button></td>
+            <td><button onclick="solve()">=</button></td> 
+            </tr>
+        
+        </table>
+            
+   <script src="./script1.js"></script>
+</body>
+</html>
